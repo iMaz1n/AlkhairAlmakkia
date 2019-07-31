@@ -1,0 +1,74 @@
+body {
+background-image: url("../img/background.png");
+font-family: 'El Messiri', sans-serif;
+background-color: #c49152;
+}
+.header{
+    background-image:url('../img/smallbackground.png');
+}
+.bg-card {
+    background: linear-gradient(163deg,#c68f56,#f7c789);
+}
+.card {
+    height: 130px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    /* margin-bottom: 10px; */
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.whiteColor{
+    color:white;
+}
+h1,h2,h3,h4,h6,h6{
+    color:white;
+}
+.fas{
+    padding-bottom: 15px;
+}
+.jumbotronCustom{
+    padding:0px 0px 0px 0px;
+}
+.footer{
+    margin-bottom:0;
+    background-color:#cccccc;
+    border-radius:0px;
+}
+a:hover{
+    color: #d5b04e;
+    text-decoration: none;
+}
+a{
+    color: #d5b04e;
+    text-decoration: none;
+}
+.flipp{
+    -webkit-transition: .8s cubic-bezier(.2, 1, .2, 1);
+    -o-transition: .8s cubic-bezier(.2, 1, .2, 1);
+    transition: .8s cubic-bezier(.2, 1, .2, 1);
+}
+
+.flipp:hover{
+    animation-duration:.4s;
+    animation-name:pulse
+}.btn-secondary {
+    font-size: 23px;
+    margin: 8px;
+}
+.btn-light {
+    color: #8c8c8c;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: 0px 1px 1px 0px;
+    border-radius: 50px;
+    padding: 10px 30px 8px 30px;
+}
+.table-dark {
+    color: #fff;
+    background-color: #242633;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
